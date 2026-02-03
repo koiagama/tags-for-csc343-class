@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+
+   
+   <title>cute pink html tags page</title>
+
+   <!-- font awesome icons -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+   <style>
+      
+      body {
+         background-color: #ffe6f2;
+         color: #5a0033;
+         font-family: "comic sans ms", cursive;
+         padding: 20px;
+      }
+
+      h1, h2 {
+         text-align: center;
+      }
+
+      /* table styling for col + colgroup */
+      table {
+         width: 80%;
+         margin: auto;
+         border-collapse: collapse;
+         background-color: #fff0f7;
+      }
+
+      td, th {
+         border: 2px solid #ff99cc;
+         padding: 10px;
+         text-align: center;
+      }
+
+      /* card hover effect using transition + transform */
+      .card {
+         background-color: #ffb6d9;
+         padding: 15px;
+         margin: 20px auto;
+         width: 60%;
+         border-radius: 15px;
+         transition: transform 0.4s, background-color 0.4s;
+      }
+
+      .card:hover {
+         transform: scale(1.05) rotate(1deg);
+         background-color: #ff99cc;
+      }
+
+      /* cute button :3 */
+      button {
+         background-color: hotpink;
+         border: none;
+         padding: 10px 20px;
+         border-radius: 20px;
+         color: white;
+         font-size: 1em;
+         cursor: pointer;
+         transition: background-color 0.3s;
+      }
+
+      button:hover {
+         background-color: deeppink;
+      }
+   </style>
+</head>
+
+<body>
+
+   <h1>ꉂ(˵˃ ᗜ ˂˵) val's html tag showcase ꉂ(˵˃ ᗜ ˂˵)</h1>
+
+   <!-- font awesome icons  -->
+   <p style="text-align:center;">
+      <i class="fa-solid fa-heart"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-face-smile"></i>
+   </p>
+
+   <!-- table using colgroup and col  -->
+   <h2>favorite desserts ୧ ‧₊˚ 🍮 ⋅ ☆</h2>
+
+   <table>
+      <colgroup>
+         <col style="background-color:#ffd6eb;">
+         <col style="background-color:#ffe6f2;">
+      </colgroup>
+
+      <tr>
+         <th>dessert</th>
+         <th>rating</th>
+      </tr>
+
+      <tr>
+         <td><data value="1">strawberry cake</data></td>
+         <td>10/10</td>
+      </tr>
+
+      <tr>
+         <td><data value="2">macarons</data></td>
+         <td>9/10</td>
+      </tr>
+   </table>
+
+   <!-- definition list using dl, dt, dd -->
+   <div class="card">
+      <h2>web terms :3</h2>
+
+      <dl>
+         <dt><dfn>html</dfn></dt>
+         <dd>a language used to structure web pages</dd>
+
+         <dt><dfn>css</dfn></dt>
+         <dd>used to style and decorate html pages</dd>
+
+         <dt><dfn>javascript</dfn></dt>
+         <dd>adds interactivity to websites</dd>
+      </dl>
+   </div>
+
+   <!-- datalist example -->
+   <div class="card">
+      <h2>pick your vibe ₍₍⚞(˶˃ ꒳ ˂˶)⚟⁾⁾</h2>
+
+      <input list="vibes" placeholder="choose a vibe">
+      <datalist id="vibes">
+         <option value="soft pink">
+         <option value="pastel goth">
+         <option value="coquette">
+         <option value="bubblegum saddness">
+      </datalist>
+   </div>
+
+   <!-- details tag example  -->
+   <div class="card">
+      <details>
+         <summary>click for a surprise!</summary>
+         <p>meow ฅ^>⩊<^ ฅ</p>
+      </details>
+   </div>
+
+   <!-- del tag example -->
+   <p style="text-align:center;">
+      best cake flavor: <del>vanilla</del> → best flavor: chocolate!!
+   </p>
+
+   <div style="text-align:center;">
+      <button onclick="showMessage()">click me :3</button>
+   </div>
+
+   <script>
+
+      function showMessage() {
+         alert("≽(◉˕ ◉ ≼マ");
+      }
+   </script>
+
+</body>
+</html>
